@@ -1,0 +1,26 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sim_1/imports/sim/testSingleCycle.vhd,1490280716,vhdl,,,,testsinglecycle,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/ArithmeticUnit.vhd,1489773588,vhdl,,,,arithmeticunit,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/ArithmeticUnitI.vhd,1489343658,vhdl,,,,arithmeticuniti,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/Buf.vhd,1489343658,vhdl,,,,buf,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/DataMemory.vhd,1490375254,vhdl,,,,datamemory,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/Decoder.vhd,1489343658,vhdl,,,,decoder,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/Execute.vhd,1520243186,vhdl,,,,execute,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/FullAdder.vhd,1489343658,vhdl,,,,fulladder,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/FunctionalUnit.vhd,1489774484,vhdl,,,,functionalunit,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/InstructionDecode.vhd,1551197075,vhdl,,,,instructiondecode,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/InstructionFetch.vhd,1520243612,vhdl,,,,instructionfetch,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/InstructionMemory.vhd,1520196756,vhdl,,,,instructionmemory,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/LogicUnit.vhd,1489773634,vhdl,,,,logicunit,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/LogicUnitI.vhd,1489343658,vhdl,,,,logicuniti,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/Memory.vhd,1490316814,vhdl,,,,memory,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/RegisterFile.vhd,1490100366,vhdl,,,,registerfile,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/RegisterN.vhd,1489673910,vhdl,,,,registern,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/Shifter.vhd,1489774926,vhdl,,,,shifter,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/SingleCycle.vhd,1490316898,vhdl,,,,singlecycle,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/WriteBack.vhd,1520243358,vhdl,,,,writeback,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/Zero.vhd,1489774420,vhdl,,,,zero,,,,,,,,
+C:/Users/franc/Documents/Mestrado/4º Ano/2º Semestre/AAC - Arquitetutra Avançada de Computadores/Laboratorio/Lab1/Lab1.srcs/sources_1/imports/design/branchcontrol.vhd,1520195838,vhdl,,,,branchcontrol,,,,,,,,

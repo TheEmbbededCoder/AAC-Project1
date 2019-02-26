@@ -1,0 +1,12 @@
+
+{ 
+    crc :  6534855080860713230  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 5b51dfda4d3c463bbe665987e04d6ca8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testSingleCycle_behav xil_defaultlib.testSingleCycle" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/testSingleCycle_behav/xsimk.exe\"   \"xsim.dir/testSingleCycle_behav/obj/xsim_0.win64.obj\" \"xsim.dir/testSingleCycle_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
