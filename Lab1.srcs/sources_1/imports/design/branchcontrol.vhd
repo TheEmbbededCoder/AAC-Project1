@@ -8,7 +8,7 @@ entity branchcontrol is
            PC : in STD_LOGIC_VECTOR (31 downto 0);
            AD : in STD_LOGIC_VECTOR (31 downto 0);
            Flags : in STD_LOGIC_VECTOR(3 downto 0);
-           PCLoad : out STD_LOGIC;
+           PCLoad : out STD_LOGIC; -- Mux que controla next PC 
            PCValue : out STD_LOGIC_VECTOR (31 downto 0));
 end branchcontrol;
 
@@ -28,7 +28,17 @@ V <= Flags(0);        -- overflow flag
 -- ocorrer uma instrução de salto (branch), mas apenas nos casos em que a condição de salto é verdadeira.
 -- Em todos os outros casos (i.e., a instrução não é de branch, ou a condição de salto é falsa) o valor 
 -- deverá ser zero.
-PCLoad <= '0';
+-- PCLoad <= '0';
+
+with BC(2 downto 0) select
+    PCLoad <= '0'        when "000",
+              '1'        when "001", 
+              Z          when "010",
+              not Z      when "011",
+              P          when "100",
+              P or Z     when "101",
+              not P      when "110",
+              not P or Z when others; 
 
 -- Calculo do novo valor de PC (caso a condicao de salto seja verdadeira)
 PCValue<=PC;
