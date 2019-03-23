@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testFiveStagePipeline_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="testFiveStagePipeline" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="378602000fs"></ZoomStartTime>
+      <ZoomEndTime time="495302001fs"></ZoomEndTime>
+      <Cursor1Time time="422002000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="146"></NameColumnWidth>
+      <ValueColumnWidth column_width="191"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/testFiveStagePipeline/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/I" type="array">
+      <obj_property name="ElementShortName">I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/IFetch/PCCurrValue" type="array">
+      <obj_property name="ElementShortName">PCCurrValue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCCurrValue[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/ID2EX/ID_PC" type="array">
+      <obj_property name="ElementShortName">ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/EX2MEM/EX_PC" type="array">
+      <obj_property name="ElementShortName">EX_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/MEM2WB/MEM_PC" type="array">
+      <obj_property name="ElementShortName">MEM_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/MEM2WB/WB_PC" type="array">
+      <obj_property name="ElementShortName">WB_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Data" type="array">
+      <obj_property name="ElementShortName">Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/CountCycles" type="other">
+      <obj_property name="ElementShortName">CountCycles</obj_property>
+      <obj_property name="ObjectShortName">CountCycles</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/ID/auxA" type="array">
+      <obj_property name="ElementShortName">auxA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">auxA[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/ID/auxB" type="array">
+      <obj_property name="ElementShortName">auxB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">auxB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/EX/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/EX/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/EX/UCS/PCValue" type="array">
+      <obj_property name="ElementShortName">PCValue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCValue[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/EX/UCS/PCLoad" type="logic">
+      <obj_property name="ElementShortName">PCLoad</obj_property>
+      <obj_property name="ObjectShortName">PCLoad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/ID/NOPSignal" type="logic">
+      <obj_property name="ElementShortName">NOPSignal</obj_property>
+      <obj_property name="ObjectShortName">NOPSignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/ID/BC" type="array">
+      <obj_property name="ElementShortName">BC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BC[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/ID2EX/EX_BC" type="array">
+      <obj_property name="ElementShortName">EX_BC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_BC[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/ID/HazardRaW" type="array">
+      <obj_property name="ElementShortName">HazardRaW[5:0]</obj_property>
+      <obj_property name="ObjectShortName">HazardRaW[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/ID2EX/ID_DA" type="array">
+      <obj_property name="ElementShortName">ID_DA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_DA[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/EX2MEM/EX_DA" type="array">
+      <obj_property name="ElementShortName">EX_DA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_DA[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/EX2MEM/MEM_DA" type="array">
+      <obj_property name="ElementShortName">MEM_DA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_DA[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/MEM2WB/WB_DA" type="array">
+      <obj_property name="ElementShortName">WB_DA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_DA[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q0" type="array">
+      <obj_property name="ElementShortName">Q0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q1" type="array">
+      <obj_property name="ElementShortName">Q1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q2" type="array">
+      <obj_property name="ElementShortName">Q2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q3" type="array">
+      <obj_property name="ElementShortName">Q3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q3[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q4" type="array">
+      <obj_property name="ElementShortName">Q4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q4[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q5" type="array">
+      <obj_property name="ElementShortName">Q5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q6" type="array">
+      <obj_property name="ElementShortName">Q6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q7" type="array">
+      <obj_property name="ElementShortName">Q7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q7[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q8" type="array">
+      <obj_property name="ElementShortName">Q8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q8[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q9" type="array">
+      <obj_property name="ElementShortName">Q9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q9[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q10" type="array">
+      <obj_property name="ElementShortName">Q10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q11" type="array">
+      <obj_property name="ElementShortName">Q11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q11[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q12" type="array">
+      <obj_property name="ElementShortName">Q12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q12[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q13" type="array">
+      <obj_property name="ElementShortName">Q13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q13[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q14" type="array">
+      <obj_property name="ElementShortName">Q14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q14[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q15" type="array">
+      <obj_property name="ElementShortName">Q15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q15[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
