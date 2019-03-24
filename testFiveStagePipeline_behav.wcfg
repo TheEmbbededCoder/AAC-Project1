@@ -10,15 +10,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="378602000fs"></ZoomStartTime>
-      <ZoomEndTime time="495302001fs"></ZoomEndTime>
-      <Cursor1Time time="422002000fs"></Cursor1Time>
+      <ZoomStartTime time="2933590000fs"></ZoomStartTime>
+      <ZoomEndTime time="3085217819fs"></ZoomEndTime>
+      <Cursor1Time time="11000000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="146"></NameColumnWidth>
-      <ValueColumnWidth column_width="191"></ValueColumnWidth>
+      <ValueColumnWidth column_width="187"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="39" />
+   <WVObjectSize size="41" />
    <wvobject fp_name="/testFiveStagePipeline/CLK" type="logic">
       <obj_property name="ElementShortName">CLK</obj_property>
       <obj_property name="ObjectShortName">CLK</obj_property>
@@ -83,9 +83,17 @@
       <obj_property name="ObjectShortName">PCValue[31:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/EnableIF" type="logic">
+      <obj_property name="ElementShortName">EnableIF</obj_property>
+      <obj_property name="ObjectShortName">EnableIF</obj_property>
+   </wvobject>
    <wvobject fp_name="/testFiveStagePipeline/Processor/EX/UCS/PCLoad" type="logic">
       <obj_property name="ElementShortName">PCLoad</obj_property>
       <obj_property name="ObjectShortName">PCLoad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testFiveStagePipeline/Processor/ID/ControlStall" type="logic">
+      <obj_property name="ElementShortName">ControlStall</obj_property>
+      <obj_property name="ObjectShortName">ControlStall</obj_property>
    </wvobject>
    <wvobject fp_name="/testFiveStagePipeline/Processor/ID/NOPSignal" type="logic">
       <obj_property name="ElementShortName">NOPSignal</obj_property>
@@ -133,6 +141,7 @@
    <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q1" type="array">
       <obj_property name="ElementShortName">Q1[31:0]</obj_property>
       <obj_property name="ObjectShortName">Q1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/testFiveStagePipeline/Processor/RF/Q2" type="array">
       <obj_property name="ElementShortName">Q2[31:0]</obj_property>
